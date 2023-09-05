@@ -1053,7 +1053,7 @@ dependencies = [
  "der",
  "elliptic-curve",
  "rfc6979",
- "signature",
+ "signature 1.4.0",
 ]
 
 [[package]]
@@ -2520,7 +2520,7 @@ dependencies = [
  "serde",
  "serde_jcs",
  "serde_json",
- "signature",
+ "signature 2.1.0",
  "tokio",
  "tonic",
 ]
@@ -3866,6 +3866,12 @@ dependencies = [
  "digest 0.9.0",
  "rand_core 0.6.3",
 ]
+
+[[package]]
+name = "signature"
+version = "2.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "5e1788eed21689f9cf370582dfc467ef36ed9c707f073528ddafa8d83e3b8500"
 
 [[package]]
 name = "slab"
